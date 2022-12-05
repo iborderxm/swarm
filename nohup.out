@@ -1,0 +1,61 @@
+Running "serve" task
+
+Running "clean:server" (clean) task
+>> 1 path cleaned.
+
+Running "ngconstant:dev" (ngconstant) task
+Creating module swarmEnv at .tmp/scripts/env.js...OK
+
+Running "githash:main" (githash) task
+>> Git githash.main =
+>> {"short":"38eec18","long":"38eec18d39c82918fafd1390585868337da18503","tag":"v
+>> 1.1.13","branch":"main"}
+
+Running "_writeVersionJson" task
+
+Running "preloadSpreadsheet:v0.2" (preloadSpreadsheet) task
+google killed the apis, hooray. TODO: figure out a new way to update the spreadsheet data, and/or move it away from google
+
+Running "ngtemplates:dev" (ngtemplates) task
+>> Template "app//dev/null" not found.
+File .tmp/scripts/app.templates.js created.
+
+Running "wiredep:app" (wiredep) task
+
+Running "wiredep:sass" (wiredep) task
+
+Running "concurrent:server" (concurrent) task
+
+    [4mRunning "coffee:dist" (coffee) task[24m
+    [32m>> [39m69 files created.
+    [32m>> [39m69 source map files created.
+
+    [32mDone.[39m
+
+
+    [4mExecution Time[24m[90m (2022-12-05 16:22:27 UTC+8)[39m
+    coffee:dist  [34m28.6s[39m  [34m▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 100%[39m
+    [35mTotal 28.6s[39m
+
+    [4mRunning "compass:server" (compass) task[24m
+    [32mdirectory[0m .tmp/styles
+    [32m    write[0m .tmp/styles/bootstrapdefault.css (21.582s)
+    [32m    write[0m .tmp/styles/main.css (0.063s)
+
+    [32mDone.[39m
+
+
+    [4mExecution Time[24m[90m (2022-12-05 16:22:27 UTC+8)[39m
+    compass:server  [34m35.6s[39m  [34m▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 100%[39m
+    [35mTotal 35.7s[39m
+
+Running "swPrecache:dev" (swPrecache) task
+
+Running "autoprefixer:dist" (autoprefixer) task
+>> 2 autoprefixed stylesheets created.
+
+Running "connect:livereload" (connect) task
+Started connect web server on http://localhost:9000
+
+Running "watch" task
+Waiting...
